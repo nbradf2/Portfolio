@@ -1,0 +1,130 @@
+/**************
+GENERAL
+****************/
+
+body {
+  background: #f4f4f9;
+  font-family: 'Raleway', sans-serif;
+  color: #3c3744;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/**************
+Hover
+****************/
+a:link {
+  color: #da2c38;
+}
+
+a:visited {
+  color: #5a7d7c;
+}
+
+a:hover {
+  color: #3c3744;
+}
+
+/**************
+Nav Bar
+****************/
+
+header {
+  display: inline-flex;
+  border-bottom: solid #3c3744;
+  width: 100%;
+  border-bottom-color: #3c3744;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 3em;
+  width: 50%;
+}
+
+nav {
+  display: inline;
+  float: right;
+  margin-top: 1.5em;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
+}
+
+header li {
+  display: inline;
+  list-style: none;
+  margin-left: 1em;
+  width: 60%;
+}
+
+/**************
+Footer
+****************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.row {
+  flex: 1;
+}
+
+footer {
+  height: 60px;
+  text-align: center;
+  border-top: solid #3c3744;
+  padding-top: 1em;
+  display: block;
+}
+
+/**************
+About
+****************/
+.about {
+  font-size: 1.2em;
+}
+
+/**************
+Resume
+****************/
+.resume p {
+  margin-top: 0;
+}
+
+.border {
+  border-bottom: 2px groove rgba(60, 55, 68, .2);
+}
+
+.bullet {
+  list-style-type: square;
+}
+
+/**************
+Contact
+****************/
+.contact li {
+  list-style: none;
+}
+
+.socialmedia li {
+  display: inline;
+}
+
