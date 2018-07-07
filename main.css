@@ -2,7 +2,7 @@
 GENERAL
 ****************/
 
-body {
+/*body {
   background: #f4f4f9;
   font-family: 'Raleway', sans-serif;
   color: #3c3744;
@@ -22,12 +22,12 @@ h2 {
 a {
   text-decoration: none;
   font-weight: bold;
-}
+}*/
 
 /**************
 Hover
 ****************/
-a:link {
+/*a:link {
   color: #da2c38;
 }
 
@@ -37,13 +37,13 @@ a:visited {
 
 a:hover {
   color: #3c3744;
-}
+}*/
 
 /**************
 Nav Bar
 ****************/
 
-header {
+/*header {
   display: inline-flex;
   border-bottom: solid #3c3744;
   width: 100%;
@@ -71,13 +71,13 @@ header li {
   list-style: none;
   margin-left: 1em;
   width: 60%;
-}
+}*/
 
 /**************
 Footer
 ****************/
 
-body {
+/*body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -93,19 +93,19 @@ footer {
   border-top: solid #3c3744;
   padding-top: 1em;
   display: block;
-}
+}*/
 
 /**************
 About
 ****************/
-.about {
+/*.about {
   font-size: 1.2em;
-}
+}*/
 
 /**************
 Resume
 ****************/
-.resume p {
+/*.resume p {
   margin-top: 0;
 }
 
@@ -115,16 +115,16 @@ Resume
 
 .bullet {
   list-style-type: square;
-}
+}*/
 
 /**************
 Contact
 ****************/
-.contact li {
+/*.contact li {
   list-style: none;
 }
 
 .socialmedia li {
   display: inline;
-}
+}*/
 
