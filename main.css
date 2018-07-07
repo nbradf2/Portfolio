@@ -9,9 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #3c3744;
   font-size: 16px;
-/*  height: 100%;*/
-  /*padding-left: 1em;
-  padding-right: 1em;*/
+  padding: 1rem;
 }
 
 h2, h3 {
