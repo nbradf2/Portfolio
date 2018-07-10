@@ -4,8 +4,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Caveat', cursive;
 ****************/
 
+* {
+  box-sizing: border-box;
+  border: 2px solid pink;
+}
+
 body {
-  background: #FEFEFE;
+  background-color: #FEFEFE;
   font-family: 'Open Sans', sans-serif;
   color: #3c3744;
   font-size: 16px;
@@ -35,14 +40,12 @@ a:hover {
 Nav Bar
 ****************/
 
-/*header {
-  display: inline-flex;
-  border-bottom: solid #3c3744;
-  width: 100%;
-  border-bottom-color: #3c3744;
+nav {
+  /*position: fixed;*/
+  /*top: 0;*/
 }
 
-header h1 {
+/*header h1 {
   display: inline-block;
   font-size: 3em;
   width: 50%;

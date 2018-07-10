@@ -4,6 +4,10 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Caveat', cursive;
 ****************/
 
+* {
+ /* border: 1px solid red;*/
+}
+
 body {
   background: #FEFEFE;
   font-family: 'Open Sans', sans-serif;
@@ -36,6 +40,14 @@ a:hover {
 Nav Bar
 ****************/
 
+.nav-links {
+  text-align: right;
+}
+
+.nav-links li {
+  display: inline;
+}
+
 /*header {
   display: inline-flex;
   border-bottom: solid #3c3744;
@@ -47,19 +59,9 @@ header h1 {
   display: inline-block;
   font-size: 3em;
   width: 50%;
-}
+}*/
 
-nav {
-  display: inline;
-  float: right;
-  margin-top: 1.5em;
-  text-align: right;
-  font-size: 20px;
-  font-weight: bold;
-  width: 40%;
-}
-
-header li {
+/*header li {
   display: inline;
   list-style: none;
   margin-left: 1em;
