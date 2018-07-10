@@ -13,7 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #3c3744;
   font-size: 16px;
-  padding: 1rem;
+ /* padding: 1rem;*/
 }
 
 h2, h3 {
@@ -24,21 +24,35 @@ h2, h3 {
 /**************
 Hover
 ****************/
-/*a:link {
-  color: #da2c38;
+a:link {
+  color: #FEFEFE;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #5a7d7c;
+  color: #FEFEFE;
 }
 
 a:hover {
-  color: #3c3744;
-}*/
+  font-size: 1.2rem;
+}
 
 /**************
 Nav Bar
 ****************/
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #3c3744;
+  color: FEFEFE;
+  width: 100%;
+  height: 5rem;
+}
+
+nav img {
+  margin-top: 5px;
+}
 
 .nav-links {
   text-align: right;
@@ -46,7 +60,18 @@ Nav Bar
 
 .nav-links li {
   display: inline;
+  line-height: 3rem;
+  margin-right: 1rem;
 }
+
+/**************
+Body
+****************/
+
+.home {
+  margin-top: 5rem;
+}
+
 
 /*header {
   display: inline-flex;
