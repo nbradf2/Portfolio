@@ -84,7 +84,7 @@ a:visited {
 }*/
 
 /**************
-Home
+HOME
 ****************/
 
 .home {
@@ -94,8 +94,14 @@ Home
   vertical-align: middle;
 }
 
+/**************
+RECENT WORK
+****************/
 
-
+.project-link {
+  background-color: #FEFEFE;
+  border: none;
+}
 
 /*header {
   display: inline-flex;
