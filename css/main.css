@@ -88,9 +88,10 @@ HOME
 ****************/
 
 .home {
-  margin-top: 7rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
   text-align: center;
-  height: 100vh;
+  height: 50;
   vertical-align: middle;
 }
 
