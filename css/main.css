@@ -9,11 +9,18 @@ font-family: 'Caveat', cursive;
 }
 
 body {
-  background: #FEFEFE;
+  background-color: #FEFEFE;
   font-family: 'Open Sans', sans-serif;
   color: #3C3744;
   font-size: 16px;
  /* padding: 1rem;*/
+}
+
+section {
+/*  border: 1px solid green;*/
+  margin: 0 auto;
+  height: 30rem;
+/*  vertical-align: middle;*/
 }
 
 h1 {
@@ -83,7 +90,6 @@ nav img {
 }
 
 
-
 /*a:hover {
   font-size: 1.2rem;
 }*/
@@ -93,11 +99,10 @@ HOME
 ****************/
 
 .home {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
+  margin-top: 8rem;
+/*  margin-bottom: 12rem;*/
   text-align: center;
-  height: 50;
-  vertical-align: middle;
+/*  height: 15rem;*/
 }
 
 .home h2, h3 {
