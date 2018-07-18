@@ -19,7 +19,9 @@ body {
 section {
 /*  border: 1px solid green;*/
   margin: 0 auto;
-  height: 30rem;
+  width:  75%;
+  text-align: center;
+/*  height: 40rem;*/
 /*  vertical-align: middle;*/
 }
 
@@ -99,7 +101,8 @@ HOME
 ****************/
 
 .home {
-  margin-top: 8rem;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
 /*  margin-bottom: 12rem;*/
   text-align: center;
 /*  height: 15rem;*/
