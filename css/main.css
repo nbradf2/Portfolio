@@ -62,6 +62,11 @@ a:visited {
   color: #FEFEFE;
 }
 
+img {
+  border: 1px solid #827F88;
+  border-radius: 3px;
+/*  box-shadow: 1px #827F88;*/
+}
 
 /**************
 Nav Bar
