@@ -6,6 +6,7 @@ font-family: 'Caveat', cursive;
 
 * {
  /* border: 1px solid red;*/
+ box-sizing: border-box;
 }
 
 body {
@@ -21,8 +22,6 @@ section {
   margin: 0 auto;
   width:  75%;
   text-align: center;
-/*  height: 40rem;*/
-/*  vertical-align: middle;*/
 }
 
 h1 {
@@ -52,11 +51,6 @@ a:hover {
   background-color: #5F5B66;
 }
 
-a:link {
-  /*color: #FEFEFE;*/
-  text-decoration: none;
-}
-
 a:visited {
   /*color: #FEFEFE;*/
   color: #FEFEFE;
@@ -68,8 +62,8 @@ img {
 /*  box-shadow: 1px #827F88;*/
 }
 
-/**************
-Nav Bar
+/***************
+NAV BAR
 ****************/
 
 nav {
@@ -97,12 +91,7 @@ nav img {
   margin-right: 1rem;
 }
 
-
-/*a:hover {
-  font-size: 1.2rem;
-}*/
-
-/**************
+/***************
 HOME
 ****************/
 
@@ -121,7 +110,7 @@ HOME
   margin-bottom: 2rem;
 }
 
-/**************
+/***************
 RECENT WORK
 ****************/
 
@@ -138,41 +127,9 @@ RECENT WORK
   background-color: #FEFEFE;
 }
 
-
-
-/*header {
-  display: inline-flex;
-  border-bottom: solid #3C3744;
-  width: 100%;
-  border-bottom-color: #3C3744;
-}
-
-header h1 {
-  display: inline-block;
-  font-size: 3em;
-  width: 50%;
-}*/
-
-/*header li {
-  display: inline;
-  list-style: none;
-  margin-left: 1em;
-  width: 60%;
-}*/
-
 /**************
 Footer
 ****************/
-
-body {
- /* display: flex;
-  flex-direction: column;*/
- /* min-height: 100vh;*/
-}
-
-/*.row {
-  flex: 1;
-}*/
 
 footer {
   height: 60px;
@@ -184,36 +141,4 @@ footer {
   display: block;
 }
 
-/**************
-About
-****************/
-/*.about {
-  font-size: 1.2em;
-}*/
-
-/**************
-Resume
-****************/
-/*.resume p {
-  margin-top: 0;
-}
-
-.border {
-  border-bottom: 2px groove rgba(60, 55, 68, .2);
-}
-
-.bullet {
-  list-style-type: square;
-}*/
-
-/**************
-Contact
-****************/
-/*.contact li {
-  list-style: none;
-}
-
-.socialmedia li {
-  display: inline;
-}*/
 
