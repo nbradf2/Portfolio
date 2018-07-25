@@ -14,52 +14,43 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #3C3744;
   font-size: 16px;
- /* padding: 1rem;*/
 }
 
 section {
-/*  border: 1px solid green;*/
-  margin: 0 auto;
   width:  75%;
   text-align: center;
 }
 
 h1 {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
   font-size: 2.2rem;
 }
 
 h2, h3 {
   font-family: 'Caveat', cursive;
   font-size: 2.2rem;
-  text-align: center;
 }
 
 a {
-  border: 1px solid #3C3744;
   border-radius: 3px;
-  margin: 0 auto;
-  width: 10rem;
   padding: 0.5rem;
   text-decoration: none;
   color: #FEFEFE;
+
+  /*background-color here is necessary for FA links*/
   background-color: #3C3744;
 }
 
+/*for all links */
 a:hover {
   background-color: #5F5B66;
 }
 
 a:visited {
-  /*color: #FEFEFE;*/
-  color: #FEFEFE;
+
 }
 
 img {
-  /*border: 1px solid #827F88;*/
   border-radius: 3px;
-/*  box-shadow: 1px #827F88;*/
 }
 
 /***************
@@ -73,12 +64,10 @@ nav {
   color: FEFEFE;
   width: 100%;
   height: 6.2rem;
-/*  margin-bottom: 5rem;*/
 }
 
 nav img {
   margin-top: 5px;
-/*  border: none;*/
 }
 
 .nav-links {
@@ -97,17 +86,11 @@ HOME
 
 .home {
   padding-top: 15rem;
-  padding-bottom: 10rem;
-  margin-bottom: 5rem;
   border-bottom: 3px solid #3C3744;
-/*  margin-bottom: 12rem;*/
-  text-align: center;
-/*  height: 15rem;*/
 }
 
 .home h2, h3 {
-  margin-top: 0;
-  margin-bottom: 2rem;
+
 }
 
 /***************
@@ -119,12 +102,24 @@ RECENT WORK
 }
 
 .project-link {
+  /*normal background link color is purple; this 
+  matches background of body*/
   background-color: #FEFEFE;
-  border: none;
+
+  /*border: none;*/
 }
 
 .project-link:hover {
+  /*removes purple hover color from general a stylings*/
   background-color: #FEFEFE;
+}
+
+/***************
+GET IN TOUCH
+****************/
+
+.get-in-touch {
+
 }
 
 /**************
@@ -132,13 +127,9 @@ Footer
 ****************/
 
 footer {
-  height: 60px;
   text-align: center;
-/*  vertical-align: middle;*/
   border-top: solid #3C3744;
   margin-top: 2rem;
-  padding-bottom: 1rem;
-  display: block;
 }
 
 
