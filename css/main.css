@@ -33,21 +33,17 @@ h2, h3 {
 
 a {
   border-radius: 3px;
-  padding: 0.5rem;
   text-decoration: none;
   color: #FEFEFE;
-
-  /*background-color here is necessary for FA links*/
-  background-color: #3C3744;
-}
-
-/*for all links */
-a:hover {
-  background-color: #5F5B66;
+  padding: 0.5rem;
 }
 
 a:visited {
+  color: #FEFEFE;
+}
 
+a:hover {
+  background-color: #5F5B66;
 }
 
 img {
@@ -69,6 +65,7 @@ nav {
 
 nav img {
   margin-top: 5px;
+  
 }
 
 .nav-links {
@@ -104,16 +101,8 @@ RECENT WORK
   width: 80%;
 }
 
-.project-link {
-  /*normal background link color is purple; this 
-  matches background of body*/
-  background-color: #FEFEFE;
-
-  /*border: none;*/
-}
-
-.project-link:hover {
-  /*removes purple hover color from general a stylings*/
+.recent-work a,
+.recent-work a:hover {
   background-color: #FEFEFE;
 }
 
@@ -121,9 +110,15 @@ RECENT WORK
 GET IN TOUCH
 ****************/
 
-.get-in-touch {
-
+.get-in-touch a:visited {
+  color: #3C3744;
 }
+
+.get-in-touch a:hover {
+  background-color: #FEFEFE;
+}
+
+
 
 /**************
 Footer
