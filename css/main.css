@@ -18,7 +18,7 @@ body {
 
 section {
   margin: 0 auto;
-  width:  75%;
+/*  width:  75%;*/
   text-align: center;
 }
 
@@ -97,6 +97,10 @@ HOME
 RECENT WORK
 ****************/
 
+.recent-work {
+  width: 75%;
+}
+
 .recent-work img {
   width: 80%;
 }
@@ -110,6 +114,14 @@ RECENT WORK
 GET IN TOUCH
 ****************/
 
+.get-in-touch {
+  border-top: 3px solid #3C3744;
+}
+
+.get-in-touch a[href^="mailto:"] {
+  color: #3C3744;
+}
+
 .get-in-touch a:visited {
   color: #3C3744;
 }
@@ -117,6 +129,7 @@ GET IN TOUCH
 .get-in-touch a:hover {
   background-color: #FEFEFE;
 }
+
 
 
 
