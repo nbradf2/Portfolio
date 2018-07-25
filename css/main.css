@@ -86,10 +86,10 @@ HOME
 ****************/
 
 .home {
+  width: 100%;
   padding-top: 10rem;
   padding-bottom: 5rem;
   border-bottom: 3px solid #3C3744;
-  border-width: 100%;
 }
 
 .home h2, h3 {
