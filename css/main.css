@@ -66,14 +66,17 @@ nav {
   color: FEFEFE;
   width: 100%;
   height: 6.2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 nav img {
   margin-top: 5px;
-  
+  display: inline;
 }
 
 #nav-links {
+  float: right;
   text-align: right;
   background-color: #3C3744;
 }
@@ -94,9 +97,9 @@ HOME
 
 .home {
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
   padding-top: 10rem;
-/*  padding-bottom: 5rem;*/
+  padding-bottom: 5rem;
   border-bottom: 3px solid #3C3744;
 }
 
@@ -168,11 +171,17 @@ GET IN TOUCH
   background-color: #FEFEFE;
 }
 
+/***************
+FONT-AWESOME
+****************/
 
+.fa-bars {
+  color: #FEFEFE;
+  visibility: hidden;
+}
 
-
-/**************
-Footer
+/***************
+FOOTER
 ****************/
 
 footer {
@@ -180,5 +189,33 @@ footer {
   border-top: solid #3C3744;
   margin-top: 2rem;
 }
+
+/***************
+MEDIA-QUERIES
+****************/
+
+@media only screen and (max-width: 900px) {
+  #nav-links {
+    visibility: hidden;
+  }
+
+  .fa-bars {
+    visibility: visible;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
