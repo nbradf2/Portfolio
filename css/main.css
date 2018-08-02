@@ -103,6 +103,11 @@ RECENT WORK
   color: #3C3744;
 }
 
+.recent-work div {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
 .recent-work img {
   width: 80%;
 }
