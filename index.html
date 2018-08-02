@@ -9,22 +9,28 @@
   <link rel="stylesheet" type="text/css" href="css/main.css"/>
   <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   </head>
+
   <body>
     <nav>
       <a href="#name" class="col-2 links"><img src="img/initials.png"></a>
-      <ul class="col-10 nav-links">
-        <li><a href="#name" class="links">Home</a></li>
+      <ul class="col-10" id="nav-links">
+        <li><a href="#home" class="links link-home">Home</a></li>
         <!-- <li><a href="#what-i-do">What I do</a></li> -->
        <!--  <li><a href="#about-me">About Me</a></li> -->
-        <li><a href="#recent-work" class="links">Recent Work</a></li>
-        <li><a href="#get-in-touch" class="links">Get in Touch</a></li>
+        <li><a href="#recent-work" class="links link-recent-work">Recent Work</a></li>
+        <li><a href="#get-in-touch" class="links link-contact">Get in Touch</a></li>
       </ul>
     </nav>
+    <div><a name="home"></a></div>
     <section class="home">
       <h1>Nicole Bradford</h1>
       <h2>Full Stack Web Developer</h2>
-      <a href="#" class="links">Contact Me</a>
+      <a href="#get-in-touch" class="links">Contact Me</a>
     </section>
     <!-- <section class="row what-i-do">
       
@@ -33,6 +39,7 @@
       <img src="http://fillmurray.com/200/200"/>
       <p>I'm an ambitious front-end developer who builds clean, responsive web applications</p>
     </section> -->
+    <div><a name="recent-work"></a></div>
     <section class="recent-work">
       <h3>Recent Work</h3>
       <div class="project-link">
@@ -48,6 +55,8 @@
         <p>HTML, CSS, JavaScript, jQuery, AJAX</p>
       </div>
     </section>
+
+    <div><a name="get-in-touch"></a></div>
     <section class="get-in-touch">
       <h3>Get in Touch</a></h3>
       <p>777.398.7154</p>
@@ -61,5 +70,6 @@
     <footer>
       <p>&copy; 2018 Nicole Bradford</p>
     </footer>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

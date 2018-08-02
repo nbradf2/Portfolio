@@ -10,7 +10,7 @@ font-family: 'Caveat', cursive;
 }
 
 body {
-  background-color: #FEFEFE;
+  background-color: #5F;
   font-family: 'Open Sans', sans-serif;
   color: #3C3744;
   font-size: 16px;
@@ -42,10 +42,6 @@ a:visited {
   color: #FEFEFE;
 }
 
-a:hover {
-  background-color: #5F5B66;
-}
-
 img {
   border-radius: 3px;
 }
@@ -68,11 +64,16 @@ nav img {
   
 }
 
-.nav-links {
+#nav-links {
   text-align: right;
+  background-color: #3C3744;
 }
 
-.nav-links li {
+#nav-links a:hover{
+  background-color: #5F5B66;
+}
+
+#nav-links li {
   display: inline;
   line-height: 4rem;
   margin-right: 1rem;
@@ -89,8 +90,8 @@ HOME
   border-bottom: 3px solid #3C3744;
 }
 
-.home h2, h3 {
-
+.home a {
+  background-color: #3C3744;
 }
 
 /***************
@@ -99,6 +100,7 @@ RECENT WORK
 
 .recent-work {
   width: 75%;
+  color: #3C3744;
 }
 
 .recent-work img {
