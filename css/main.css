@@ -1,4 +1,13 @@
-/**************
+/***************
+ANIMATION
+****************/
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100$ {opacity: 1;}
+}
+
+/***************
 GENERAL
 font-family: 'Open Sans', sans-serif;
 font-family: 'Caveat', cursive;
@@ -89,6 +98,17 @@ HOME
   padding-top: 10rem;
 /*  padding-bottom: 5rem;*/
   border-bottom: 3px solid #3C3744;
+}
+
+.home h1 {
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+
+.home h2,
+.home a {
+  animation-duration: 5s;
+  animation-name: fadeIn;
 }
 
 .home a {
