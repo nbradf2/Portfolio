@@ -76,17 +76,17 @@ nav img {
   float: left;
 }
 
-#nav-links {
+.nav-links {
   float: right;
   text-align: right;
   background-color: #3C3744;
 }
 
-#nav-links a:hover{
+.nav-links a:hover{
   background-color: #5F5B66;
 }
 
-#nav-links li {
+.nav-links li {
   display: inline-block;
   line-height: 4rem;
   margin-right: 1rem;
@@ -207,6 +207,19 @@ MEDIA-QUERIES
 
   .fa-bars {
     visibility: visible;
+  }
+
+  .drop-links {
+    margin-top: 6.3rem;
+    border: 1px solid red;
+    background-color: #5F5B66;
+    text-align: center;
+    width: 100%;
+  }
+
+  .drop-links li {
+    color: #3C3744;
+    display: inline;
   }
 }
 
