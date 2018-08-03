@@ -82,7 +82,7 @@ nav img {
   background-color: #3C3744;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
   background-color: #5F5B66;
 }
 
@@ -209,17 +209,37 @@ MEDIA-QUERIES
     visibility: visible;
   }
 
-  .drop-links {
-    margin-top: 6.3rem;
-    border: 1px solid red;
-    background-color: #5F5B66;
-    text-align: center;
+  .drop-nav {
     width: 100%;
+  }
+
+  .drop-links {
+    margin-top: 5.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+/*    border: 1px solid red;*/
+    background-color: #FEFEFE;
+    text-align: center;
+    border-bottom: 2px solid #3C3744;
   }
 
   .drop-links li {
     color: #3C3744;
     display: inline;
+  }
+
+  .drop-links a {
+    color: #3C3744;
+  }
+
+  .drop-links a:hover {
+    background-color: #DBDADD;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .drop-nav {
+    display: none;
   }
 }
 
