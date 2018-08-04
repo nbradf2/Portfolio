@@ -19,7 +19,10 @@ font-family: 'Caveat', cursive;
 }
 
 body {
-  background-color: #5F;
+  /*background-image: url("../img/dawn-dusk.jpg");
+  background-repeat: no-repeat;
+  background-position: absolute;*/
+  background-color: #FEFEFE;
   font-family: 'Open Sans', sans-serif;
   color: #3C3744;
   font-size: 16px;
@@ -180,7 +183,13 @@ GET IN TOUCH
 FONT-AWESOME
 ****************/
 
-.fa-bars {
+/*.fa-bars {
+  color: #FEFEFE;
+  display: inline-block;
+  visibility: hidden;
+}*/
+
+.fas {
   color: #FEFEFE;
   display: inline-block;
   visibility: hidden;
@@ -205,19 +214,20 @@ MEDIA-QUERIES
     display: none;
   }
 
-  .fa-bars {
+  .fas {
     visibility: visible;
+    /*border: 1px solid red;*/
   }
 
   .drop-nav {
     width: 100%;
+    display: none;
   }
 
   .drop-links {
     margin-top: 5.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-/*    border: 1px solid red;*/
     background-color: #FEFEFE;
     text-align: center;
     border-bottom: 2px solid #3C3744;
